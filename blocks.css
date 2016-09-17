@@ -141,5 +141,27 @@ body, html {
 	position: relative;
 	top:50%;
 	left: 50%;
-	transform: translateX(-50%) translateY(-50%); 
+	transform: translateX(-50%) translateY(50%); 
+}
+
+.help-block{
+	color: #e08f8f;
+}
+.btn{
+	background-color: #fdcef8;
+	border-color: #af6c96;
+	color: #000;
+}
+.btn-success:hover {
+	background-color: #b364b9;
+	border-color: #af6c96;
+	color: #eee;
+}
+.btn-success::active {
+	background-color: #b364b9;
+	border-color: #af6c96;
+	color: #eee;
+}
+.container-form{
+	margin: 10% 2%; 
 }

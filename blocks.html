@@ -151,16 +151,38 @@
         </div>
     </div>
 
-                      <!--таблица-->
+                      <!--табличное выравнивание-->
 
 
     <div class="container-fluid thirdFull-Width">
         <div class="thirdBlock">
+        <form role="form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Введи email">
+                <p class="help-block">Твой электронный адрес</p>
+            </div>
+            <div class="form-group">
+                <label for="pass">Пароль</label>
+                <input type="pass" class="form-control" id="pass" placeholder="Введи пароль">
+                <p class="help-block">Твое тайное словечко</p>
+            </div>
+            <div class="checkbox">
+                <label> <input type="checkbox">Запомни меня</label>
+                <p class="help-block">у меня Альцгеймер</p> 
+            </div>
+             <button type="submit" class="btn btn-success">Войти!</button>    
+             <p class="help-block">Нажми на кнопку</p>
+
+        </form>
             <div class="table-center" id="as">
             <img src="http://cs5.pikabu.ru/images/big_size_comm/2015-05_5/14323144815008.jpg" alt=" " width="300" height="300">
             </div>
         </div>
     </div>
+
+                            <!-- просто html таблица-->
+
 
      <div class="container-fluid fourthFull-Width">
         <div class="tableContainer">
@@ -208,6 +230,8 @@
         </div>
        </div>
 
+                             <!-- bootstrap таблица-->
+
     <div class="container-fluid fifthFull-Width">
         <div class="BootContainer">
             <table class="table table-bordered">
@@ -254,7 +278,60 @@
         </div>
     </div>
 
+
+                 
+
     <div class="container-fluid sixthFull-Width">
+
+                     <!-- вертикальная форма-->
+
+        <div class="container-form">
+            <form role="form" class="form-inline">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Введи email">
+                </div>
+                <div class="form-group">
+                    <label for="pass">Пароль</label>
+                    <input type="password" class="form-control" id="password" placeholder="Введи пароль">
+                </div>
+                <button type="submit" class="btn btn-success">Войти</button>
+            </form>
+        </div>
+
+                           <!-- горизонтальная форма-->
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="mail" class="col-sm-2 control-label"> Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-group" id="email" placeholder="Введи почту" >
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="pass" class="col-sm-2 control-label"> Password</label>
+                    <div class="col-sm-10">
+                        <input type="pass" class="form-group" id="pass" placeholder="Введи пароль" >
+                    </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remeber me
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-suссess">Push</button>
+                </div>
+            </div>
+        </form>
+
+                     <!-- responsive таблица-->
+
         <div class="boobContainer">
             <div class="table-responsive">
                 <table class="table table-striped">
