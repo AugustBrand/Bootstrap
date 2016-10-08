@@ -1,0 +1,41 @@
+body, html {
+	height:100%;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container{
+
+}
+.header{
+	min-width: 400px;
+	margin: 20px 10px; 
+	padding: 15px 20px;
+	background-color: #f6f6f6;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+	
+}
+#registration{
+	
+}
+.individual{
+	min-width: 350px;
+	margin: 20px 10px; 
+	padding: 20px 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+}
+.entity{
+	min-width: 350px;
+	margin: 20px 10px; 
+	padding: 20px 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+}
+}

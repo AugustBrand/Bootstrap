@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HeadTemplate</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body> 
+  <div class="container-fluid " id="main-wr">
+    <div class="row">
+      <nav class="navbar navbar-default fixed-top navbar__main">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu"> 
+          <span class="sr-only">Открыть навигацию</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="responsive-menu">
+        <ul class="nav navbar-nav">
+
+
+            <!---             Помощь              -->
+
+
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Помощь <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"> Как оформить подписку</a></li>
+              <li><a href="#"> Карта сайта </a></li>
+              <li><a href="#"> Оплата и получение </a></li>
+                                      
+            </ul>
+          </li>
+
+          
+
+                   <!---             Подписка              -->
+
+
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Подписка <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"> Как оформить подписку</a></li>
+              <li><a href="#"> Корпоративная подписка </a></li>
+              <li class="divider"> </li>
+              <li><a href="#"> Бонусная программа </a></li>
+            </ul>
+          </li>
+
+
+                     <!---             О компании              -->
+
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> О компании <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"> О нас </a></li>
+              <li><a href="#"> Партнеры </a></li>
+              <li><a href="#"> История</a></li>
+              <li class="divider"> </li>
+              <li><a href="#"> Услуги для издателей </a></li>
+              <li><a href="#"> Партнерская программа </a></li>
+            </ul>
+          </li>
+
+                                <!---             Оплата              -->
+
+          <li class="dropdown"><a href="#"> Оплата </a></li>   
+
+                                      <!---             Доставка             -->
+
+          <li class="dropdown"><a href="#"> Доставка</a></li>
+        </ul>
+
+          
+
+        <ul class="nav navbar-nav pull-right ">
+            <li class="dropdown" id="bottom-nav-bar"><a href="#"> 8-800-200-2090</a> </li>
+            <li class="dropdown" id="bottom-nav-bar"><a href="#"> public@akc.ru</a></li>
+
+
+                           <!---             Контакты              -->
+
+
+              <li class="dropdown_right"><a href="#" class="dropdown-toggle " data-toggle="dropdown"> Контакты <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"> Контактные данные </a></li>
+                  <li><a href="#"> Как добраться </a></li>
+                  <li class="divider"> </li>
+                  <li><a href="#"> По вопросам оформления подписки</a></li>
+                  <li><a href="#"> По вопросам размещения изданий </a></li>
+                  <li><a href="#"> Информация для юридических лиц </a></li>
+                </ul>
+              </li>
+
+            </ul>
+           
+        </div>
+      </nav>
+    </div>
+    
+  
+
+                                       <!-- Второй ряд -->
+    
+  <div class="row" id="header">
+      <div class="col-xs-6" id="logo" >
+        <a href="#">
+          <img src="http://www.akc.ru/upload/image/logo/logo.gif">
+        </a>
+      </div>
+
+                              <!---             лого и кнопки          -->
+
+    <div class="col-xs-6" id="basketButton">
+                              <!---             кнопки            -->
+      <div class="authorBttn" id="">
+              <button type="button" class="btn btn-default btn-block btn-main">Авторизация </button>
+              <button type="button" class="btn btn-default btn-block btn-main">Регистрация</button>  
+      </div> 
+
+      <div class="basketLogo" id="">
+            <a href="#">
+            <img src="https://cdn4.iconfinder.com/data/icons/adiante-apps-app-templates-incos-in-grey/128/app_type_shop_512px_GREY.png" alt="basket" class="img-rounded imgLogo">
+            <span class="basket_link">Корзина</span>
+            </a>
+      </div>
+    </div>
+  </div>
+
+
+
+                                       <!-- Третий ряд -->
+
+
+    <div class="row" id="search"> 
+        <div class="col-xs-offset-1 col-xs-2" id="alphabet_search"> 
+          <button class="btn btn-default" type="button">Поиск по алфавиту</button>
+        </div>
+        <div class="col-xs-6" id="search-line"> 
+          <div class="input-group">
+            <span class="input-group-addon"><img src="https://cdn1.iconfinder.com/data/icons/free-98-icons/32/search-20.png">
+            </span>
+            <input type="search" class="form-control">
+              <span class="input-group-btn ">
+                <button class="btn btn-default" type="button">Найти!</button>
+              </span>
+          </div>
+        </div>
+        <div class="col-xs-2" id="bigSearch">
+          <button class="btn btn-default" type="button">Расширенный поиск</button>
+        </div>
+    </div>
+                                         <!--  Алфавит -->
+
+   <div class="row" id="alphabet">
+    <nav class="navbar navbar-default fixed-top navbar__alphabet">
+      <div class="collapse navbar-collapse" id="alphabet_menu">
+        <ul class="nav navbar-nav">
+          <li>
+            <a class="navbar_alphabet-item" href="#">A</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Б</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">В</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Г</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Д</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Е</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Ж</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">З</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">И</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">К</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Л</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">М</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Н</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">О</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">П</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Р</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">С</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Т</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">У</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Ф</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Х</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Ц</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Ч</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Ш</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Щ</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Э</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Ю</a>
+          </li>
+          <li>
+            <a class="navbar_alphabet-item" href="#">Я</a>
+          </li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+
+                                       <!-- Четвертый ряд -->
+
+   <div class="row">
+    <div class="col-xs-6 catalog_button">
+      <button type="button" class="btn btn-danger btn-lg btn-block btn-catalog">Печатные издания</button>
+    </div>  
+       <div class="col-xs-6 catalog_button">
+      <button type="button" class="btn btn-danger btn-lg btn-block btn-catalog">Электронные издания</button>
+    </div>
+  </div>
+
+
+                                      <!-- Выпадающий блок -->
+
+
+  <div class="row catalog_list">
+  <div class="jumbotron jumbotron-main"><h2 class="jumbo_header">Список всех публикаций</h2>
+      <div class="row catalog_alphabet">
+        <div class="col-xs-2 ">
+          <div class="alphaButt">
+            <h3 class="catalog_alphabet-item">А</h3>
+          </div>
+           
+      </div>
+
+      <div class="col-xs-5 catalog_one">
+        <ul class="list-group">
+           <li class=" list-group-item catalog_one_alphabet_list">
+            <span class="badge">12</span>
+              <a class="" href="#">Астрологические заболевания и способы воспроизведения DVD в ушах молодых шакалов </a>
+            </li>
+            <li class="list-group-item catalog_one_alphabet_list">
+              <span class="badge">12</span>
+              <a class=" href="#">Апельсиновый туман</a>
+            </li>
+            <li class="list-group-item catalog_one_alphabet_list">
+              <span class="badge">12</span>
+              <a class=" href="#">Армия для отца, сына и святого духа</a>
+            </li>
+            <li class="list-group-item catalog_one_alphabet_list">
+              <span class="badge">12</span>
+              <a class=" href="#">Асинхронное развязывание шнурков</a>
+            </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-5 catalog_two">
+         <ul class="list-group">
+         <li class="list-group-item catalog_two_alphabet_list">
+          <span class="badge">12</span>
+              <a class="" href="#">Аннигиляция</a>
+            </li>
+            <li class="list-group-item catalog_two_alphabet_list">
+              <span class="badge">12</span>
+              <a class="" href="#">Антропологическое зачатие </a>
+            </li>
+            <li class="list-group-item catalog_two_alphabet_list">
+              <span class="badge">12</span>
+              <a class="" href="#">Анальные развлечения</a>
+            </li>
+            <li class="list-group-item catalog_two_alphabet_list">
+              <span class="badge">12</span>
+              <a class="" href="#">Ад и смородиновое варенье в корзиночках</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+   
+                                      <!-- И следующий -->
+
+
+    <div class="row catalog_alphabet">
+      <div class="col-xs-2 ">
+        <div class="alphaButt">
+          <h3 class="catalog_alphabet-item">Б</h3>
+        </div>
+         
+      </div>
+
+    <div class="col-xs-5 catalog_one">
+      <ul class="list-group">
+         <li class=" list-group-item catalog_one_alphabet_list">
+          <span class="badge">12</span>
+            <a class="" href="#">Больничные приключения Вельзевула </a>
+          </li>
+          <li class="list-group-item catalog_one_alphabet_list">
+            <span class="badge">12</span>
+            <a class=" href="#">Баскетология и бра</a>
+          </li>
+          <li class="list-group-item catalog_one_alphabet_list">
+            <span class="badge">12</span>
+            <a class=" href="#">Бенедикт 16 </a>
+          </li>
+          <li class="list-group-item catalog_one_alphabet_list">
+            <span class="badge">12</span>
+            <a class=" href="#">Буээээ</a>
+          </li>
+      </ul>
+    </div>
+
+      <div class="col-xs-5 catalog_two">
+         <ul class="list-group">
+         <li class="list-group-item catalog_two_alphabet_list">
+          <span class="badge">12</span>
+              <a class="" href="#">Борис Бритва следит за тобой</a>
+            </li>
+            <li class="list-group-item catalog_two_alphabet_list">
+              <span class="badge">12</span>
+              <a class="" href="#">Базальная температура ковра </a>
+            </li>
+            <li class="list-group-item catalog_two_alphabet_list">
+              <span class="badge">12</span>
+              <a class="" href="#">Билингвисты или как захватить мир</a>
+            </li>
+            <li class="list-group-item catalog_two_alphabet_list">
+              <span class="badge">12</span>
+              <a class="" href="#">Брачные игры золотистых пингвинов</a>
+            </li>
+      </ul>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+  
+
+
+                       <!--      Cтраница товаров     -->
+  
+    <div class="row">
+    <div class="product-list">
+      <div class="row">
+      <div class="col-xs-6">
+          <div class="product-item">
+            <div class="col-xs-4">
+            <div class="product-item_photo-wr">
+                <a href="#">
+                  <img class="product-item_photo" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Anarchistcookbookdsfg.jpg" alt="anarchist cookbook">
+                </a>
+              <div class="product-item_buttons">
+                <button class="btn btn-default btn-main_product" type="submit">Подписаться</button>
+                <a href="#" class="btn btn-default btn-md disabled btn-price" role="button">от 100500 р.</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-xs-8">
+              <div class="product-item_description">
+                 <a class="product-item_title" href="#">The Anarchist Cookbook</a>
+                  <p class="product-item_annotation">The Anarchist Cookbook, first published in 1971, is a book that contains instructions for the manufacture of explosives, rudimentary telecommunications phreaking devices, and other items. The book also includes instructions for home manufacturing of illicit drugs, including LSD. It was written by William Powell at the apex of the counterculture era in order to protest against United States involvement in the Vietnam War.</p>
+              </div>
+            </div>
+        
+      </div>
+    </div>
+
+    <div class="col-xs-6">
+          <div class="product-item">
+            <div class="col-xs-4">
+            <div class="product-item_photo-wr">
+                <a href="#">
+                  <img class="product-item_photo" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Anarchistcookbookdsfg.jpg" alt="anarchist cookbook">
+                </a>
+            </div>
+            <div class="product-item_buttons">
+              <button class="btn btn-default btn-main_product" type="submit">Подписаться</button>
+              <a href="#" class="btn btn-default btn-md disabled btn-price" role="button">от 100500 р.</a>
+            </div>
+            </div>
+            <div class="col-xs-8">
+              <div class="product-item_description">
+                 <a class="product-item_title" href="#">The Anarchist Cookbook</a>
+                  <p class="product-item_annotation">The Anarchist Cookbook, first published in 1971, is a book that contains instructions for the manufacture of explosives, rudimentary telecommunications phreaking devices, and other items. The book also includes instructions for home manufacturing of illicit drugs, including LSD. It was written by William Powell at the apex of the counterculture era in order to protest against United States involvement in the Vietnam War.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+                 <!--      Страница подписки на журнал          -->
+
+  <div class="row">
+    <div class="subscription-page">
+      <div class="subscription-page_header"><p>Подписка на журнал «Journal of Computational and Engineering Mathematics / Журнал компьютерной и инженерной математики»</p>
+      </div>
+      
+      <div class="row">
+        <div class="subscription-page_info">
+        <div class="col-xs-4">
+          <div class="subscription-page_image-wr">
+            <a class="subscription-page_image" href="#">
+              <img src="http://www.akc.ru/upload/akc/edition_photo/2100013043/ut_2013-01.jpg" alt="" class="img-thumbnail">
+            </a>
+           </div>
+        </div>
+        <div class="col-xs-7">
+          
+          <div class="subscription-page_annotation">
+            
+                Меня твои истории просто доебали уже, я уже не могу их слушать, блядь. Одна история охуительней другой, просто. Про говно, блядь. Про какую-то хуйню, малафью. Чё ты несёшь-то вообще? Ты можешь заткнуться? Шишка, блядь, встанет — возбудимся. Чего, блядь? Про что ты несёшь? Вообще охуеть.
+            
+            
+          </div>
+           
+              <div class="subscription-page_index">Подписной индекс:
+                <span class="index_number">Е43133</span>
+              </div>
+                <div class="subscription-page_period"> Периодичность журнала:
+                  <span class="period_number">6 в полугодие</span> 
+                </div>
+                <div class="subscription-page_anotherVers">
+            У этого издания есть
+            <a href="#">
+              <button class="btn btn-default btn-sm">Электронная версия</button>
+            </a>
+                </div>
+        </div>
+        
+
+        <div class="clear"></div>
+
+        <div class="row">
+        <div class="subscription-page_products">
+        <div class="col-xs-4">
+          <div class="subscription-page_carousel-wr">
+            <a class="subscription-page_image" href="#">
+              <img src="http://www.akc.ru/upload/akc/edition_photo/2100013043/ut_2013-01.jpg" alt="" class="img-thumbnail">
+            </a>
+           </div>
+        </div>
+        <div class="col-xs-7">
+          <div class="subscription-page_publish">
+            
+            <a href="#">
+              <button class="btn btn-default btn-md btn-block">Узнать подробнее об этом издательстве</button>
+            </a>
+          </div>
+          <div class="subscription-page_warning">
+            <p>
+                Вы можете купить подписку на печатную версию журнала «МАРАФОН СКАНВОРДОВ» на 2017 год (период: от 2 месяцев). Стоимость подписки — от 84.00 руб. Доставка изданий производится почтовыми бандеролями по России. Для юридических лиц доступна курьерская доставка по Москве.
+            </p>
+          
+          </div>
+          </div>
+          <div class="clear">
+
+
+          <!--        Оформить подписку -->
+
+
+          
+          <div class="row">
+            <div class="subscription-page_order">
+              <div class="subscription-page_order-header">
+                Оформить подписку можно здесь:
+              </div>
+              <div class="subscription-page_subscribe-period">
+                <p>Период подписки:</p>
+                <div class="row">
+                  <div class="col-xs-2">
+                    <div class="subscription-page_subscribe-period_year">
+                      2016
+                    </div>
+                    <div class="subscription-page_subscribe-period_year">
+                     2017
+                    </div>
+                  </div>
+                  <div class="col-xs-10">
+                     <div class="subscription-page-btn">
+                      <button class="btn btn-default">Янв</button>
+                      <button class="btn btn-default">Фев</button>
+                      <button class="btn btn-default">Мар</button>
+                      <button class="btn btn-default">Апр</button>
+                      <button class="btn btn-default">Май</button>
+                      <button class="btn btn-default">Июн</button>
+                      <button class="btn btn-default">Июл</button>
+                      <button class="btn btn-default">Авг</button>
+                      <button class="btn btn-default">Сен</button>
+                      <button class="btn btn-default">Окт</button>
+                      <button class="btn btn-default">Ноя</button>
+                      <button class="btn btn-default">Дек</button>
+                    </div>
+                  
+                  <div class="subscription-page-btn">
+                      <button class="btn btn-default">Янв</button>
+                      <button class="btn btn-default">Фев</button>
+                      <button class="btn btn-default">Мар</button>
+                      <button class="btn btn-default">Апр</button>
+                      <button class="btn btn-default">Май</button>
+                      <button class="btn btn-default">Июн</button>
+                      <div class="btn btn-default subscription-page_btn subscription-page_btn__group">
+                        <span class="btn_text">Июл</span>
+                        <span class="btn_text">Авг</span>
+                        <span class="btn_text">Сен</span>
+                        <span class="btn_text">Окт </span>
+                        <span class="btn_text"> Ноя </span>
+                        <span class="btn_text">Дек</span>
+                      </div>
+                  </div>
+                  </div> 
+                  <div class="col-xs-10">
+                    
+
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+                                  <!--    Доставка    -->
+
+
+          
+            <div class="subscription-page_delivery">
+            <div class="radio">Выберите способ получения:
+              
+                  <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Курьером по Москве. Доступно только для юридических лиц.
+                </label>
+                <label class="">
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Почтой России
+                  </label>
+            </div>
+            </div>
+          </div>
+
+
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+       
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>
