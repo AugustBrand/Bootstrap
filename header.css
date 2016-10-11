@@ -257,26 +257,19 @@ html, body{
 
 .subscription-page{
 	margin-top: 40px;
-	border:1px solid #ccc;
+	
 	padding: 20px 35px;
 }
 .subscription-page_header{
 	border:1px solid #eee;
-	padding: 15px;
+	padding: 15px ;
 	text-align: center;
 	font-size: 19px;
-
-}
-
-.subscription-page_caption{
-	border:1px solid #ccc;
-	padding: 10px;
 	margin: 15px 10px; 
-	background-color: #eee;
-	text-align: center;
 }
+
 .subscription-page_info{
-	margin: 30px;
+	margin: 30px 40px;
 
 }
 
@@ -289,8 +282,8 @@ html, body{
 }
 
 .subscription-page_anotherVers{
-	margin: 30px 5px 15px 5px;
-	float: right;
+	margin: 10px 5px 15px 0;
+	
 }
 .clear{
 	clear: both;
@@ -298,36 +291,43 @@ html, body{
 
 
 .subscription-page_publish{
-	margin: 0 10px;
+	margin: 35px 0;
 
 }
 .subscription-page_annotation{
-	margin: 15px;
+	margin: 0 10px;
 	font-size: 16px;
 	line-height: 1.6;
 }
-.subscription-page_index{
-	float: left;
+.subscription-page_others{
+	
+}
+.index-number{
+	
 	padding: 5px;
 	background-color: #d6e0f1;
 }
-.subscription-page_period{
-	float: left;
+.period-number{
+	
 	padding: 5px;
-	background-color: #a6b8e6;
+	background-color: #dedfe2;
 }
 .subscription-page_products{
 	margin: 20px;
 }
 .subscription-page_warning{
-	margin: 35px 30px;
+	color:#989696;
+	display: block;
+	margin: 25px 15px;
+	padding: 10px 15px;
 }
 .subscription-page_delivery{
-	border:1px solid #ccc;
-	padding: 15px 30px;
+	
+	padding: 10px 60px;
 	font-size: 16px;
 	line-height: 1.9;
 }
+
 .subscription-page_order{
 	margin: 20px 10px; 
 }
@@ -335,27 +335,31 @@ html, body{
 	border: 1px solid #ccc;
 }
 .subscription-page_order-header{
-	margin: auto;
-	background-color: #cc2c3e;
+	
+	background-color: #0e5e99;
 	opacity: 0.9;
-	color: #000;
+	color: #fff;
 	font-size: 19px;
 	padding: 8px;
 	
 	text-align: center;
-	margin-top: 30px;
+
 	
 }
 .subscription-page_subscribe-period{
 	margin: 20px;
+	font-size: 15px;
+	text-align: center;
 }
 
 .subscription-page_subscribe-period_year{
-	border: 2px solid #a6b8e6;
+	color: #0e5e99;
+	font-weight: bold;
+	font-size: 19px;
 	display: block;
-	border-radius: 20px;
+	
     padding: 12px;
-    margin: 24px 25px 10px;
+    margin: 20px 30px;
 }
 .subscription-page-btn{
 	/*border: 2px solid #a6b8e6;*/
@@ -378,4 +382,58 @@ html, body{
 
 .btn_text:last-child{
 	padding: 0 13px 0 10.4px;
+}
+.subscription-page_total-sum{
+	font-size: 19px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 20px;
+	padding: 7px 10px;
+	text-align: center;
+
+}
+.subscription-page_total-month, .subscription-page_total-year{
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	margin:15px 0;
+	text-align: center;
+	background-color: #dfdfdf;
+}
+.subscription-page_total-month:hover, .subscription-page_total-year:hover{
+	border: 1px solid #79bff2;
+}
+
+.btn-subscribe{
+	margin-top: 40px;
+	background-color: #f1f1f1;
+	color:#000;
+	font-size: 20px;
+	border-top: 1px solid #c7c7c7;
+	
+}
+.total-year-sum{
+
+}
+.subscription-page_alsoWathed-header, .subscription-page_recently-header{
+	margin: 70px 25px;
+	padding: 5px 10px;
+	
+	text-align: center;
+	font-size: 18px;
+	border:1px solid #e2e2e2;
+
+}
+.subscription-page_alsoWathed-header{
+	background-color: #cc2c3e;
+	color: #fff;
+}
+.subscription-page_recently-header{
+	background-color: #cc2c3e;
+	color: #fff;
+}
+.subscription-page_alsoWathed-wr, .subscription-page_recently-wr{
+	margin-left: 30px;
+	display: flex;
+	justify-content: space-around;
+
 }
