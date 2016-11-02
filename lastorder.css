@@ -1,0 +1,42 @@
+.order-page-wr{
+	width: 620px;
+	margin: 20px 20px 0 25%;
+	padding: 10px 20px; 
+	border-radius: 5px;
+	border: 1px solid #eee;
+
+}
+.order-page-header > h2{
+	background-color: #0e5e99;
+    color: #fff;
+    padding: 5px; 
+    text-align: center;
+}
+.order-page-header{
+	color: #615e5e;
+	margin: 10px; 
+}
+.order-page-header-pay-wr{
+	border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: 25px 20px;
+
+}
+.order-page-header-pay{
+	margin-top: 7px;
+	float: left;
+	font-size: 17px;
+}
+.order-page-btns{
+	display: flex;
+	flex-flow: column wrap;
+
+	height: 100px;
+	margin: 5px 10px; 
+	
+}
+.btn-order{
+	margin: 5px ;
+	
+}

@@ -1,0 +1,89 @@
+.electroCard-wr{
+	width: 640px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.electrocard-item{
+	width: 640px;
+	margin: 20px 10px;
+	padding: 0 20px;
+
+    
+}
+
+.electrocard-item:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.electrocard-item_photo{
+	width: 100%;
+}
+.electrocard-item_title{
+	font-size:18px;
+	
+}
+.electrocard-item_annotation{
+	margin-top: 15px;
+}
+.btn-main_electrocard{
+	margin:  5px  0;
+}
+.electrocard-cost{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 15px;
+}
+.electrocard-item_buttons{
+	margin-left: 20px;
+    
+}
+.btn-main_electrocard {
+    margin: 13px 0 0 0;
+    padding: 8px;
+    background-color: #337ab7;
+    color: #fff;
+    
+}
+.electrocard-item_text{
+	margin: 40px 19px 0 15px;;
+	color: #757272;
+
+}
+.electroсard > .nav-tabs{
+	border: none;
+	
+}
+.tab-electroContent{
+	border: 1px solid #ccc;
+    padding: 5px;
+}
+.electroContent-year{
+	width: 162px;
+    height: 25px;
+    background-color: #337ab7;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.electroContent-year-btns{
+	font-size: 16px;
+	color: #337ab7;
+}
+.electrocard_total-sum{
+	font-size: 22px;
+    line-height: 1.5;
+    margin-top: -1px;
+    padding: 20px 16px;
+    border: 1px solid #ccc;
+
+}
+.btn-total{
+	font-size: 16px;
+    background-color: #0e5e99;
+    color: #fff;
+}
