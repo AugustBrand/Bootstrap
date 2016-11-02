@@ -1,0 +1,29 @@
+.electrocard-list{
+	
+	padding: 15px 15px;
+	margin-bottom: 20px;
+
+}
+
+
+.electrocard-item{
+	border: 1px solid #eee;
+	padding: 30px 15px;
+}
+
+.electrocard-item:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.electrocard-item_photo{
+	width: 100%;
+}
+.electrocard-item_title{
+	font-size:18px;
+	
+}
+.electrocard-item_annotation{
+	margin-top: 15px;
+}

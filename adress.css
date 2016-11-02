@@ -1,0 +1,65 @@
+
+.address-wr{
+	width: 940px
+}
+.table-wr{
+	width:900px;
+
+	
+}
+.table .table-address{
+	display: table;
+	border-radius: 5px;
+}
+.table-address .radio{
+	margin: 0;
+
+}
+.table-address-header{
+	background-color: #eee;
+	width: 15%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.table .table-address-radio{
+	width: 1%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.nav-address{
+	border: none;
+	width: 940px;
+}
+.table .table-address-content{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.address-warning{
+	width: 500px;
+	position: absolute;
+    margin: 27px 0 0 22px;
+	color: #b11717;
+	opacity: 0.7;
+
+}
+.address_buttwarning-wr,{
+	width: 900px;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+	
+}
+ .address_footer-buttons{
+ 	display: inline-flex;
+	flex-flow: column wrap;
+
+ }
+
+.btn-address{
+	margin: 7px 18px;
+}
